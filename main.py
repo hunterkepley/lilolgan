@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # then generating the second coordinate using a function
 # This is for our true dataset.
 def get_y(x):
-    return 10 + x**4 # Make this any function (10 + FUNC to move 10 above the axis, obviously)
+    return 10 + x**2 # Make this any function (10 + FUNC to move 10 above the axis, obviously)
 
 def sample_Z(m, n):
     return np.random.uniform(-100., 100., size=[m, n])
